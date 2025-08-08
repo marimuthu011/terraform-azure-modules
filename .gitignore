@@ -1,0 +1,29 @@
+# Local Terraform state files
+*.tfstate
+*.tfstate.*
+# *.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.plan
+
+# .terraform working directory
+.terraform/
+
+# Override files (local changes)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore any credential files
+*.pem
+*.key
+*.crt
+
+# VS Code or IDE settings (optional)
+.vscode/
+.idea/
